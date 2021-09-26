@@ -1,7 +1,6 @@
 package org.example.springboot1.web;
 
 
-import org.aspectj.lang.annotation.After;
 import org.example.springBoot1.domain.posts.Posts;
 import org.example.springBoot1.domain.posts.PostsRepository;
 import org.example.springBoot1.web.dto.PostsSaveRequestDto;
