@@ -47,7 +47,7 @@ public class PostsApiControllerTest {
 
         String url  = "http://localhost:" + port +"/api/v1/posts";
 
-        //when1
+        //when
 
         ResponseEntity<Long> responseEntity = restTemplate.postForEntity(url,requestDto,Long.class);
 
